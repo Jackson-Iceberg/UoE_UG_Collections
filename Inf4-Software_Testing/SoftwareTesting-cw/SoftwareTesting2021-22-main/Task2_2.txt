@@ -1,0 +1,5 @@
+Parser class: There ia an unreachable branch in the getInteger method because Parser needs to store the OptionMap first, otherwise it cannot get the Option. But the OptionMap does not allow Option(NoType) to be stored in the OptionMap, the getInteger method cannot access its default branch. In addition, there are 2 unreachable branches in the replace method because Parser need to access the Option from OptionMap. But the OptionMap will throw runtimeException if this option isnot exist via getOption,getShortcut and getOptionByNameOrShortcut methods. Hence, the unreachable have been tested in the OptionMap class.
+
+Option class: there are 2 unreachable breanches in the equals method. First unreachable breanch is getClass() because Option cannot change Option.Class() state.So it is impossible to access the branch(getObject==obj.getClass()). The other unreachable branch is because  logic contradiction. If (name==null&&other.name ==null) then name.equals(other.name) must be true, it cannot access to false branch.
+
+
