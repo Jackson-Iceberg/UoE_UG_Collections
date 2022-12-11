@@ -1,0 +1,49 @@
+estimate_endeffect
+[ 0.64667746 -0.94205268  8.89057363]
+vision_endeffect
+[ 0.7421875  -1.05455878  9.74006959]
+
+estimate_endeffect
+[ 1.2788576  -1.83795461  8.56777072]
+vision_endeffect
+[ 1.5234375  -2.10834579  9.54314924]
+
+estimate_endeffect
+[ 1.8807979  -2.64410168  8.04827789]
+vision_endeffect
+[ 2.38095238 -3.16251868  9.14240795]
+
+estimate_endeffect
+[ 2.43863066 -3.32240586  7.35870091]
+vision_endeffect
+[ 3.25396825 -4.16195057  8.45274117]
+
+estimate_endeffect
+[ 2.93993088 -3.84240855  6.5338479 ]
+vision_endeffect
+[ 4.11290323 -4.99434069  7.47692012]
+
+estimate_endeffect
+[ 3.37412491 -4.18296409  5.61450331]
+vision_endeffect
+[ 4.83870968 -5.67368825  6.27958606]
+
+estimate_endeffect
+[ 3.73281541 -4.33328034  4.6448649 ]
+vision_endeffect
+[ 5.49180328 -6.02881424  4.94250428]
+
+estimate_endeffect
+[ 4.01002747 -4.29325189  3.66982759]
+vision_endeffect
+[ 5.86065574 -6.2086862   3.54581965]
+
+estimate_endeffect
+[ 4.20236109 -4.07308089  2.73231322]
+vision_endeffect
+[ 6.16666667 -5.95486975  2.16661547]
+
+estimate_endeffect
+[ 4.30905341 -3.69222694  1.87083116]
+vision_endeffect
+[ 6.22881356 -5.42464162  0.95541118]
