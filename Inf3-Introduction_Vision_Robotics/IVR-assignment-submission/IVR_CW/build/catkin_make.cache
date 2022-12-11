@@ -1,0 +1,2 @@
+ivr_assignment
+-DCATKIN_DEVEL_PREFIX=/home/gcx/IVR_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gcx/IVR_ws/install -G Unix Makefiles
