@@ -1,0 +1,24 @@
+{% load myfilters %}
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Vote</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="/">Index</a>
+
+    {% if request.user|role == 'ea' %}
+        <a class="p-2 text-dark" href="{% url 'set-election-registration' %}">Set Election Registration</a>
+        <a class="p-2 text-dark" href="{% url 'ea-list' %}">View Election Registration Sit</a>
+    {% elif request.user|role == 'eo' %}
+        <a class="p-2 text-dark" href="{% url 'eo:startnewelection' %}">Start a new Election</a>
+        <a class="p-2 text-dark" href="{% url 'eo:eo-list' %}">View a Existing Election</a>
+    {% endif %}
+
+    <a class="p-2 text-dark" href="{% url 'help' %}">Help</a>
+    <a class="p-2 text-dark" href="{% url 'contact' %}">Contact</a>
+  </nav>
+{% if request.user.is_authenticated %}
+    {{ request.user.username }}: {{ request.user|role }} &nbsp;&nbsp;&nbsp;<a class="btn btn-outline-primary" href="{% url 'logout' %}">Logout</a>
+{% else %}
+    <a class="btn btn-outline-primary" href="{% url 'login' %}">Sign in</a>
+{% endif %}
+</div>

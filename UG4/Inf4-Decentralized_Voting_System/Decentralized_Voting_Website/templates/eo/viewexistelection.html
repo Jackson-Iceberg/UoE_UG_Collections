@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+View Exist Election
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        View Exist Election
+    </div>
+    <div class="card-body" style="{% if object %}display: none{% endif %}">
+        Start a new election first
+    </div>
+    <div class="card-body" style="{% if not object %}display: none{% endif %}">
+        <p>
+            Title: {{ object.title }}<br>
+            Credential Period  From: {{ object.credential_period_from }}<br>
+            Credential Period  To: {{ object.credential_period_to }}<br>
+            Casting Period From: {{ object.casting_period_from }}<br>
+            Casting Period To: {{ object.casting_period_to }}<br>
+            Tallying Period: {{ object.tallying_period }}
+        </p>
+        <h3>Credential User</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                {% for voter in object.eocredentialuser_set.all %}
+                    <tr>
+                        <td>{{ voter.name }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <hr>
+        <h3>Voter User</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Public Key</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                {% for voter in object.eovoteruser_set.all %}
+                    <tr>
+                        <td>{{ voter.name }}</td>
+                        <td>{{ voter.email }}</td>
+                        <td>{{ voter.public_key }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

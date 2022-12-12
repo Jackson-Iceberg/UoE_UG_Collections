@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Election Registration
+{% endblock %}
+
+{% block content %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Registration Period From</th>
+            <th>Registration Period To</th>
+            <th>action</th>
+        </tr>
+    </thead>
+    <tbody id="container">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    $(location).ready($.ajax({
+        url: '{% url 'election-registration-list-api' %}',
+        method: 'get',
+        success (res) {
+            const container = $('#container')
+            for (let i = 0; i < res.length; i++) {
+                container.append(`
+                <tr>
+                    <td>${res[i].title}</td>
+                    <td>${res[i].registration_from}</td>
+                    <td>${res[i].registration_to}</td>
+                    <td><a href="/ea/eadetail/${res[i].id}/">View</a></td>
+                </tr>
+                `)
+            }
+        },
+        error (res) {
+
+        }
+    }))
+</script>
+{% endblock %}

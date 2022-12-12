@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Election Registration Detail
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        Election Registration Detail
+    </div>
+    <div class="card-body">
+        <p>
+            Title: <span id="title"></span><br>
+            Registration Period From: <span id="registration_from"></span><br>
+            Registration Period To: <span id="registration_to"></span>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Public Key</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    $.ajax({
+        url: '{% url 'ea-detail-api' pk %}',
+        method:'get',
+        success (res) {
+            $('#title').html(res.title)
+            $('#registration_from').html(res.registration_from)
+            $('#registration_to').html(res.registration_to)
+            console.log(res.eavoteusers)
+            for (let i = 0; i < res.eavoteusers.length; i++) {
+                const container = $('#body')
+                container.append(`
+                    <tr>
+                        <td>${res.eavoteusers[i].name}</td>
+                        <td>${res.eavoteusers[i].email}</td>
+                        <td>${res.eavoteusers[i].public_key}</td>
+                    </tr>
+                `)
+            }
+        },
+        error (res) {
+            
+        }
+    })
+</script>
+{% endblock %}

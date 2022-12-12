@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block content %}
+    <div class="alert alert-success" role="alert" style="">
+      <h4 class="alert-heading">Set Election Registration</h4>
+      <p>Set Election Registration</p>
+      <hr>
+      <p class="mb-0" style="display: flex;justify-content: flex-end"><a type="button" class="btn btn-primary" href="{% url 'set-election-registration' %}">Set</a></p>
+    </div>
+    <div class="alert alert-success" role="alert" style="">
+      <h4 class="alert-heading">View Election Registration Situation</h4>
+      <p>View Election Registration Situation</p>
+      <hr>
+      <p class="mb-0" style="display: flex;justify-content: flex-end"><a type="button" class="btn btn-primary" href="{% url 'ea-list' %}">View</a></p>
+    </div>
+{% endblock %}

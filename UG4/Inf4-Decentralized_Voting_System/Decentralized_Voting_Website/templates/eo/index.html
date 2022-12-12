@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block content %}
+    <div class="alert alert-success" role="alert" style="">
+      <h4 class="alert-heading">Start a new Election</h4>
+      <p>Start a new Election</p>
+      <hr>
+      <p class="mb-0" style="display: flex;justify-content: flex-end"><a type="button" class="btn btn-primary" href="{% url 'eo:startnewelection' %}">Set</a></p>
+    </div>
+<div class="alert alert-success" role="alert" style="">
+  <h4 class="alert-heading">View a Existing Election</h4>
+  <p>View a Existing Election </p>
+  <hr>
+  <p class="mb-0" style="display: flex;justify-content: flex-end"><a type="button" class="btn btn-primary" href="{% url 'eo:eo-list' %}">View</a></p>
+</div>
+{% endblock %}

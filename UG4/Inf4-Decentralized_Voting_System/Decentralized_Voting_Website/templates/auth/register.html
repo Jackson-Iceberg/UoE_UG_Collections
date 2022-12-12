@@ -1,0 +1,85 @@
+{% extends 'auth/base.html' %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+<h2 style="text-align: center;margin-top: 40px;">Register</h2>
+<div style="display: flex;justify-content: center">
+    <div style="width: 500px">
+        <div class="alert alert-warning" role="alert" style="display: none" id="warning">
+        </div>
+        <form id="registerForm">
+          {% csrf_token %}
+            <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Role</label>
+            <div class="col-sm-10">
+                <label for="ea" style="margin-right: 20px">Eligibility Authority <input type="radio" name="role" value="ea" id="ea"></label>
+                <label for="eo">Election Organizer <input type="radio" name="role" value="eo" id="eo"></label>
+            </div>
+            </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Username</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control plaintext" id="staticEmail" value="" name="username">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control plaintext" id="staticEmail" value="" name="email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword" name="password">
+            </div>
+          </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword" name="password1">
+            </div>
+        </div>
+
+            <br>
+            <a href="{% url 'login' %}" class="btn btn-link">Already have a account?</a>
+            <br>
+        </form>
+        <button class="btn btn-primary btn-block" onclick="register()">Register</button>
+    </div>
+</div>
+<script>
+    function warning(text) {
+        console.log(text)
+        $('#warning').text(text).show()
+    }
+    function register() {
+        const data = new FormData($('#registerForm')[0])
+        $.ajax({
+            url: '{% url 'register-api' %}',
+            method: 'POST',
+            data: data,
+            processData:false,   //  告诉jquery不要处理发送的数据
+            contentType:false,
+            success (res) {
+                console.log(res)
+                if (res.code === 1){
+                    warning(res.msg)
+                }else if (res.code === undefined) {
+                    warning(JSON.stringify(res))
+                }
+                else {
+                    window.location.href = '/'
+                }
+
+            },
+            error (res) {
+                warning('网络错误' + res.responseText)
+            }
+        })
+    }
+</script>
+{% endblock %}
