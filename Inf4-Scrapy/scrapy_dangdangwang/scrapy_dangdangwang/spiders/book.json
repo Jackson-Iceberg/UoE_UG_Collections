@@ -1,0 +1,1081 @@
+{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 告白2完结篇'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.80'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/74/22/29409509-1_b_1.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 别装（限量作者亲签版！新锐作者林七年爆笑校园力作！网络原名：《别和我装穷...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.90'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/58/3/29408602-1_b_4.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 那个不为人知的故事'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥21.00'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/46/8/29124262-1_b_4.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 大哥（套装共2册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.20'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/72/12/23945598-1_b_35.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 他在云之南（人气作家景行燃情悬爱力作！随书附赠“追光”书签。）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥19.90'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/71/20/28541672-1_b_8.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 他和她的猫（当当专享定制INS风透卡、定制捏脸圆扇、定制甜蜜3D变幻卡，...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥15.40'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/5/13/25299059-1_b_35.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 汀南丝雨【限量亲签版】'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥29.50'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/98/18/29338946-1_b_4.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 白色橄榄树（全二册）（ 人气作家玖月晞继《少年的你，如此美丽》后突破之作！）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥34.90'
+    >
+  ],
+  'src': '//img3m0.ddimg.cn/22/1/27850900-1_b_11.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 偷偷藏不住（共2册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥38.90'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/25/7/28525786-1_b_6.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 小清欢（在我开始确定，我喜欢的人终于也有那么一点点喜欢我的那一刻。）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥16.50'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/37/28/25217119-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 青：陪安东尼度过漫长岁月5'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥24.00'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/8/35/29381624-1_b_10.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 驻我心间【限量亲签版+定制表情包贴纸】殊娓甜宠新作'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥29.80'
+    >
+  ],
+  'src': '//img3m7.ddimg.cn/49/23/29406217-1_b_4.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 入池4完结篇【印特签版+专享海报＋老照片明信片】网络原名：不要在垃圾桶里...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.80'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/93/13/29412201-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 他笑时风华正茂'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥16.00'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/48/0/25216536-1_b_7.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 全世界有你就好（苑子豪2022年全新小说集。专享亲笔签名版！）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥24.90'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/27/17/29388969-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 告白'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥34.40'
+    >
+  ],
+  'src': '//img3m5.ddimg.cn/13/21/29350345-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 他最野了（全2册）曲小蛐代表作'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥46.90'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/39/16/29150688-1_b_28.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 人鱼陷落（长佩原创人气文学，高人气作者麟潜口碑代表作！）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥29.00'
+    >
+  ],
+  'src': '//img3m3.ddimg.cn/2/32/29411813-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 暗格里的秘密（陈哲远、徐梦洁主演同名电视剧原著小说。人气燃甜作家耳东兔子...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥29.90'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/87/12/27864231-1_b_14.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 草木生'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥21.40'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/52/33/29162878-1_b_9.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 青：陪安东尼度过漫长岁月5 限量亲笔签名版'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.00'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/4/1/29402014-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 偏偏宠爱'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥38.90'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/86/23/28523471-1_b_6.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 【限量特签】这膝盖我收下了完结篇（全2册）当当定制海报+人设贴纸'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥49.80'
+    >
+  ],
+  'src': '//img3m5.ddimg.cn/21/24/29418465-1_b_7.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 当真（全二册）作者特签印刷版，另有当当专享小剧场等你来！'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥29.90'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/45/10/29242368-1_b_9.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 天才基本法（全4册）（随机发货 当当专享定制鼠标垫、定制透明书皮、学生证...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥62.40'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/69/20/29113692-1_b_18.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 我们最好的时光（从前慢，一生只够爱一人！）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥20.40'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/28/27/28552816-1_b_13.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 退烧（全二册）舒虞浪漫新作'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥38.30'
+    >
+  ],
+  'src': '//img3m7.ddimg.cn/27/35/29299077-1_b_6.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 入池（全4册完结套装）骑鲸南去代表作网络原名：不要在垃圾桶里捡男朋友'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥129.80'
+    >
+  ],
+  'src': '//img3m0.ddimg.cn/31/28/29413030-1_b_1.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 提灯照河山（淮上作品，当当专享人物透卡）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥24.90'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/97/31/29170942-1_b_13.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 难哄（全两册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥67.50'
+    >
+  ],
+  'src': '//img3m7.ddimg.cn/28/29/29282347-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 余生，请多指教（肖战、杨紫主演电视剧原著小说）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥18.70'
+    >
+  ],
+  'src': '//img3m3.ddimg.cn/73/27/27913123-1_b_21.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 奶油味暗恋（上下册）（《全世界最好的你》电视剧原著小说。宋伊人、张耀领衔主演）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥30.20'
+    >
+  ],
+  'src': '//img3m0.ddimg.cn/18/31/26183340-1_b_2.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 磨牙（全2册）【限量亲签版+定制贴纸】舒虞新作'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥49.80'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/92/23/29404478-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 难哄2.完结篇（新增万字番外+作者后记！《偷偷藏不住》姊妹篇，温以凡×桑...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥34.40'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/23/34/29259671-1_b_1.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 心跳不听话（全2册）【限量特签+定制手写卡】臣年甜蜜新作'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥49.80'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/56/23/29415134-1_b_4.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 苍兰诀（九鹭非香亲笔签名版随机发货 当当专享人气画手眠狼绘制印刷海报）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥19.90'
+    >
+  ],
+  'src': '//img3m5.ddimg.cn/60/22/29171895-1_b_19.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 熔城 珍藏版（全两册）当当专享印签+“熔城”自封袋+随书赠品15款'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥76.00'
+    >
+  ],
+  'src': '//img3m3.ddimg.cn/60/20/29295843-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 归路'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥33.40'
+    >
+  ],
+  'src': '//img3m3.ddimg.cn/33/21/29403033-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 玫瑰予秃鹫 【限量亲签本】 特签随机掉落， 当当专享约会门票卡，福袋（《...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥22.50'
+    >
+  ],
+  'src': '//img3m0.ddimg.cn/64/34/29412370-1_b_6.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 带我去你的岛'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥21.40'
+    >
+  ],
+  'src': '//img3m7.ddimg.cn/25/24/29241457-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 你的名字。（新海诚亲笔撰写，同名电影原作小说简体中文版，撩动万千观众的青...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥27.40'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/7/8/24157789-1_b_15.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 草莓印（全文修订、随书附含番外+、精美“草莓时光”明信片！）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥33.90'
+    >
+  ],
+  'src': '//img3m7.ddimg.cn/71/35/27923417-1_b_8.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 你是长夜，也是灯火'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥19.90'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/55/27/25350688-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 云胡不喜（尼卡十年言情巨献，百万读者口口相传民国言情经典）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥35.50'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/94/3/29375968-1_b_7.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 没有人像你'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥21.10'
+    >
+  ],
+  'src': '//img3m3.ddimg.cn/7/18/29245003-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 惊鹿：全二册'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥54.00'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/73/21/29409508-1_b_1.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 太阳为你加冕（全2册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥28.10'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/32/15/29317298-1_b_15.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 我喜欢你，像风走了八千里（随机签名版）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥26.10'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/16/1/26515681-1_b_18.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 橙：陪安东尼度过漫长岁月2'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥7.20'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/32/4/25119896-1_b_7.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 一级律师 木苏里 全球高考作家木苏里又一口碑之作 纯爱都市 收录番外 强强联手'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥27.40'
+    >
+  ],
+  'src': '//img3m5.ddimg.cn/19/13/28554985-1_b_6.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 等风降临'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥21.40'
+    >
+  ],
+  'src': '//img3m0.ddimg.cn/56/16/29321480-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 你好，旧时光（六周年珍藏版，套装全三册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥43.00'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/93/2/23767914-1_b_1.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 他与爱同罪（全二册）（人气作家北倾甜蜜深情之作。傅征的征途，是大海，也是...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥28.10'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/45/19/25347609-1_b_13.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 提灯映桃花（上、下册）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥40.80'
+    >
+  ],
+  'src': '//img3m1.ddimg.cn/1/7/24162931-1_b_14.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 我不喜欢这世界，我只喜欢你修订版 乔一 畅销百万册！由吴倩张雨剑主演的超...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥19.90'
+    >
+  ],
+  'src': '//img3m6.ddimg.cn/64/10/27859456-1_b_9.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 幺幺见我心（云拿月作品网络原名《十三幺》）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥17.50'
+    >
+  ],
+  'src': '//img3m9.ddimg.cn/1/22/26918299-1_b_5.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 一生一世江南老（《周生如故》原著小说《一生一世美人骨》姊妹篇，作者说“美...'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥25.20'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/35/8/29171474-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 等风轻抚你（全二册）（网络原名《等风热吻你》）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥38.90'
+    >
+  ],
+  'src': '//img3m2.ddimg.cn/80/20/28971242-1_b_3.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 一级律师2 木苏里 纯爱都市 公理定下，正义不朽'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥27.40'
+    >
+  ],
+  'src': '//img3m4.ddimg.cn/21/4/28983954-1_b_7.jpg'
+}{
+  'name': [
+    <Selector
+    xpath=
+    './/img/@alt'
+    data=
+    ' 一粒红尘·昭觉：独家纪念版（新老版本随机发货）'
+    >
+  ],
+  'price': [
+    <Selector
+    xpath=
+    './/p[@class="price"]/span[1]/text()'
+    data=
+    '¥14.80'
+    >
+  ],
+  'src': '//img3m8.ddimg.cn/29/29/25065938-1_b_11.jpg'
+}
