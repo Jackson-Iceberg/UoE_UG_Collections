@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Ecclesia</string>
+
+    <!--  EA Home Page       -->
+    <string name="Start_Election">Start a New Election</string>
+    <string name="View_Election">View a Existing Election</string>
+    <string name="Help">Help</string>
+    <string name="ContactUs">Contact Us</string>
+
+    <!--  EA Home Page       -->
+    <string name="SetElectionRegistration">Set Election Registration</string>
+    <string name="ViewElectionRegistration">View Election Registration Situation</string>
+    <string name="Upload">Upload csv File</string>
+    <string name="Voter">New Voter</string>
+
+    <!--  Login Page           -->
+    <string name="EligibilityAuthority">Eligibility Authority</string>
+    <string name="ElectionOrganizer">Election Organizer</string>
+    <string name="Email">Email Address</string>
+    <string name="Password">Passwords</string>
+    <string name="Login">Login</string>
+
+    <!--  EO Registration Page -->
+    <string name="RegistrationTitle">Setting Election Registration</string>
+    <string name="VoterList">Voters List</string>
+
+
+    <!--  New Election Step1           -->
+    <string name="ElectionTitle">Election Title</string>
+    <string name="Title">Creating A New Election</string>
+    <string name="CredentialPeriod">Credential Generation Period</string>
+    <string name="RegistrationPeriod">Registration Period</string>
+    <string name="NewElectionExample">For example:Student President Election</string>
+    <string name="DayMonthYear">DD/MM/YEAR</string>
+    <string name="To">to</string>
+    <string name="Back">Back</string>
+    <string name="Cancel">Cancel</string>
+    <string name="SaveForNext">Save for later</string>
+    <string name="Next">Next</string>
+    <string name="step1">1/4</string>
+
+    <!-- New Election Step2 -->
+    <string name="ResultReleaseDate">Result Release Date</string>
+    <string name="TallyingDay">Tallying Day</string>
+    <string name="Candidates">Verified Candidates</string>
+    <string name="AddCandidate">Add new Candidates</string>
+    <string name="Name">Name</string>
+    <string name="add_Candidates">Add Candidates</string>
+    <string name="delete_Candidates">Delete Candidates</string>
+    <string name="Candidate_Name">Candidate Name</string>
+    <string name="step2">2/4</string>
+
+    <!-- New Election step3 -->
+    <string name="VotingPeriod">Voting Period</string>
+    <string name="CastingPeriod">Casting Period</string>
+    <string name="voters">Verified Voters</string>
+    <string name="Voters_Name">Voter Name</string>
+    <string name="add_Voters">Add Voters</string>
+    <string name="delete_Voters">Delete Voters</string>
+    <string name="step3">3/4</string>
+
+    <!-- New Election step4 Confirmation -->
+    <string name="Confirmation">Confirmation</string>
+    <string name="ElectionTitle_confirm">Election Title</string>
+    <string name="register_start_day">Register Start Day:</string>
+    <string name="register_end_day">Register End Day</string>
+    <string name="Credential_start_day">Credential Generation Start Day:</string>
+    <string name="Credential_end_day">Credential Generation End Day:</string>
+
+    <string name="voting_start_day">Voting Start Day</string>
+    <string name="voting_end_day">Voting End Day</string>
+    <string name="casting_start_day">Casting Start Day:</string>
+    <string name="casting_end_day">Casting End Day:</string>
+    <string name="result_day">Result Post Day</string>
+    <string name="tallyingDay">Tallying Day:</string>
+
+    <string name="day_20210410">  2021/04/10</string>
+    <string name="day_20210510">2021/05/10</string>
+    <string name="day_20210511">2021/05/11</string>
+    <string name="day_20210611">2021/06/11</string>
+    <string name="day_20210711">2021/07/11</string>
+
+    <string name="day_20210412">2021/04/12</string>
+    <string name="step4">4/4</string>
+    <string name="Submit">Submit</string>
+
+    <!-- View Election -->
+    <string name="ViewRegistrationSituation">View Registration Situation</string>
+    <string name="ViewVoterSituation">View Voter Situation</string>
+    <string name="ViewResult">View Result</string>
+
+    <!-- add voter -->
+    <string name="voterName">Name</string>
+    <string name="emailAddress">Email</string>
+    <!-- add candidate -->
+    <string name="candidateName">Name</string>
+
+    <!-- Help Center Page  -->
+    <string name="Question1">Question 1: How to start a new election?</string>
+    <string name="Question2">Question 2: When I get stuck in the page, what should I do?</string>
+    <string name="Question3">Question 3: </string>
+    <string name="Answer1">Answer: Press the start a Election Button and then follow the instruction</string>
+    <string name="Answer2">Answer: Press the save for later, and then press cancel to restart it</string>
+    <string name="Answer3">Answer: </string>
+
+    <!-- Contact Us Page -->
+    <string name="PhoneNumber">Phone Number: 07514979617</string>
+    <string name="EmailAddress">Email Address: s1862323@ed.ac.uk</string>
+    <string name="Address">Address: Appleton Tower</string>
+
+
+</resources>

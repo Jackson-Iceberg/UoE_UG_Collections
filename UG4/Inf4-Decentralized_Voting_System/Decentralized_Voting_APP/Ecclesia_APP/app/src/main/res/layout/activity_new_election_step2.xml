@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewElectionStep2">
+
+    <Button
+        android:id="@+id/ElectionBackHomeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_frame"
+        android:text="@string/Back"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <Button
+        android:id="@+id/ElectionCancelButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/grey_frame"
+        android:text="@string/Cancel"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/ResultDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/TallyingDay"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/ResultReleaseDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ResultDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grey_frame"
+        android:drawableStart="@drawable/ic_calendar"
+        android:paddingStart="20dp"
+        android:text="@string/DayMonthYear"
+        android:textColor="@color/black" />
+<!--    <Button-->
+<!--        android:id="@+id/ResultReleaseDate"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/grey_frame"-->
+<!--        android:text="@string/DayMonthYear"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ResultDate"-->
+<!--        app:layout_constraintVertical_bias="0.036" />-->
+
+    <TextView
+        android:id="@+id/CandidatesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Candidates"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/ResultReleaseDate"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CandidatesRecView"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/CandidatesTitle"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/grey_frame"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CandidatesRecView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_frame"
+        android:text="@string/Upload"
+        android:textAllCaps="false" />
+<!--    <Button-->
+<!--        android:id="@+id/deleteCandidatesButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:text="@string/delete_Candidates"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.21"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/CandidatesRecView"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addCandidatesButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:text="@string/add_Candidates"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.812"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/CandidatesRecView"-->
+<!--        app:layout_constraintVertical_bias="0" />-->
+
+    <Button
+        android:id="@+id/saveButton2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_frame"
+        android:text="@string/SaveForNext"
+        android:textAllCaps="false"
+        android:layout_below="@+id/upload"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/NextButton2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/dark_orange"
+        android:text="@string/Next"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step3"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_below="@+id/NextButton2"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/step2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/step2"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/saveButton2"-->
+<!--        app:layout_constraintVertical_bias="0.6" />-->
+
+
+</RelativeLayout>

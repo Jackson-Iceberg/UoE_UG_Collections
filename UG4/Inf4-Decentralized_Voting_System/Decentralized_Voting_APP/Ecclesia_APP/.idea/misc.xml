@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/black_frame.xml" value="0.23645833333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/button_period.xml" value="0.23645833333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/grey_frame.xml" value="0.3223958333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.265625" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.265625" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/orange_frame.xml" value="0.2598958333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/person.xml" value="0.2598958333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/rectangle.xml" value="0.23645833333333333" />
+        <entry key="..\:/Ecclesia/app/src/main/res/drawable/user.xml" value="0.265625" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activaty_login.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_activaty_login.xml" value="0.24375" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_add_voter.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_contact_us.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_ea_start_election.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_election_summary.xml" value="0.16" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_help_center.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_new_election_step1.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_new_election_step2.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_new_election_step3.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_new_election_summary.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/activity_view_election.xml" value="0.2" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/addvoter.xml" value="0.2" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/candidates_list_item.xml" value="0.2916666666666667" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/ea_home_page.xml" value="0.25" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/fragment_new_election_activity.xml" value="0.2046875" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/fragment_new_election_step1.xml" value="0.264" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/main_ea.xml" value="0.176" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/main_fragment.xml" value="0.176" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/single_candidate_setting.xml" value="0.2916666666666667" />
+        <entry key="..\:/Ecclesia/app/src/main/res/layout/voters_list_item.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

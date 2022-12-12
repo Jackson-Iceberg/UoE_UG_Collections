@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectionSummary">
+
+    <Button
+        android:id="@+id/ElectionBackHomeButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_frame"
+        android:text="@string/Back"
+        android:textAllCaps="false"
+         />
+
+    <TextView
+        android:id="@+id/confirm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirmation"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+         />
+
+    <TextView
+        android:id="@+id/registerStart_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:text="@string/Credential_start_day"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/RegisterStart_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:hint="@string/day_20210410"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColorHint="@color/dark_orange"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/registerEnd_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Credential_end_day"
+        android:layout_below="@+id/registerStart_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/RegisterEnd_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerStart_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:hint="@string/day_20210510"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColorHint="@color/dark_orange"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/VotingStart_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEnd_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:text="@string/casting_start_day"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/VotingStart_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEnd_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:hint="@string/day_20210511"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColorHint="@color/dark_orange"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/VotingEnd_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VotingStart_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:text="@string/casting_end_day"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/VotingEnd_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VotingStart_editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:hint="@string/day_20210611"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColorHint="@color/dark_orange"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ResultRelease_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VotingEnd_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:text="@string/tallyingDay"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ResultRelease_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VotingEnd_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:hint="@string/day_20210711"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColorHint="@color/dark_orange"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ResultRelease_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/dark_orange"
+        android:text="@string/Submit"
+        android:textAllCaps="false"
+        />
+
+
+    <!--    <EditText-->
+<!--        android:id="@+id/VotingStart_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="@string/day_20210411"-->
+<!--        android:autofillHints="@string/day_20210410"-->
+<!--        android:textSize="20sp"-->
+<!--        android:inputType="date"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.406"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/VotingStart_text"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/RegisterEnd_editText"-->
+<!--        app:layout_constraintVertical_bias="0.014" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/VotingEnd_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/voting_end_day"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/VotingStart_text"-->
+<!--        app:layout_constraintVertical_bias="0.05" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/VotingEnd_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="@string/day_20210411"-->
+<!--        android:autofillHints="@string/day_20210410"-->
+<!--        android:textSize="20sp"-->
+<!--        android:inputType="date"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.46"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/VotingEnd_text"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/VotingStart_editText"-->
+<!--        app:layout_constraintVertical_bias="0.005" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ResultRelease_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/result_day"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/VotingEnd_text"-->
+<!--        app:layout_constraintVertical_bias="0.05" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/ResultRelease_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="@string/day_20210412"-->
+<!--        android:autofillHints="@string/day_20210410"-->
+<!--        android:textSize="20sp"-->
+<!--        android:inputType="date"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.46"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/VotingEnd_text"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/VotingEnd_editText"-->
+<!--        app:layout_constraintVertical_bias="0.003" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/submitButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:background="@color/dark_orange"-->
+<!--        android:text="@string/Submit"-->
+<!--        android:textSize="28sp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.8" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/step4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:text="@string/step4"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/submitButton"-->
+<!--        app:layout_constraintVertical_bias="0.9" />-->
+</RelativeLayout>
